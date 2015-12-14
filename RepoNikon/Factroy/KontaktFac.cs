@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+
 namespace RepoNikon
 {
     public class KontaktFac:AutoFac<Kontakt>

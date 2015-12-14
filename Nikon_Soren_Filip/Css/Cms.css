@@ -1,0 +1,38 @@
+﻿body {
+    background-color: white !important;
+}
+* {
+   
+}
+.item {
+  
+
+    
+}
+
+.item2 {
+    background-color: darkgoldenrod;
+    border-bottom: white 2px solid;
+    
+   
+   
+    
+}
+
+h4 {
+   
+    clear: both;
+    text-align: center;
+    font-size: 80px !important;
+
+}
+
+.icon-bar {
+    background-color: gray !important;
+    float: left !important;
+    border: white solid 2px;
+
+        
+}
+
+

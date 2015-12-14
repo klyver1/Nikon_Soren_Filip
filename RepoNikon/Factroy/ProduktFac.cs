@@ -4,13 +4,13 @@ using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
-using RepoMZ.Models.ViewModeles;
+using RepoNikon.Models.ViewModeles;
 
 namespace RepoNikon
 {
-    public class ProduktFac:AutoFac<Produkt>
+    public class ProduktFac : AutoFac<Produkt>
     {
-      KategoriFac katFac = new KategoriFac();
+        private KategoriFac katFac = new KategoriFac();
 
         public ProduktList GeProduktList(int katID)
         {
@@ -20,6 +20,7 @@ namespace RepoNikon
             return pl;
         }
     }
-
-  
 }
+
+
+//}

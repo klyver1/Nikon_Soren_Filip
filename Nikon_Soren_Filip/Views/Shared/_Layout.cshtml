@@ -5,40 +5,66 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
-    <link href="~/Content/css/foundation.min.css" rel="stylesheet" />
+
+    <link href="~/css/font-awesome.css" rel="stylesheet" />
+    <link href="~/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/css/foundation.css" rel="stylesheet" />
+    <link href="~/css/foundation.min.css" rel="stylesheet" />
+    <link href="~/css/normalize.css" rel="stylesheet" />
     <link href="~/Content/css/app.css" rel="stylesheet" />
+    <link href="~/Css/StyleSheet.css" rel="stylesheet" />
 </head>
 <body>
-<div class="row">
-    <header class="large-12 columns"></header>
-</div>
-<div class="row">
-    <nav class="large-12 columns">
-        <ul><li><a href="#">Hjem</a></li></ul>
-        <ul><li><a href="#">Produkter</a></li></ul>
-        <ul><li><a href="#">Om os</a></li></ul>
-        <ul><li><a href="#">Kontakt</a></li></ul>
-    </nav>
-</div>
-<div class="row">
-    <div class="large-12 columns">
-        <ul class="orbit">
-
-        </ul>
+    <div class="row">
+        <header class="large-12 columns">
+            <img src="~/Pic/header.PNG" />
+        </header>
     </div>
-</div>
-<div class="row">
-    kat
-</div>
-@RenderBody()
-<div class="row">
-    <Footer class="large-12 columns"></Footer>
-</div>
+    <div class="row">
+        <div class="row">
+            <div class="large-12 columns">
 
-    <script src="~/Content/js/vendor/jquery.min.js"></script>
-    <script src="~/Content/js/vendor/what-input.min.js"></script>
-    <script src="~/Content/js/foundation.min.js"></script>
-    <script src="~/Content/js/app.js"></script>
+                <nav class="top-bar " data-topbar>
+                    <ul class="title-area">
+                        <li class="name"></li>
+                        <li class="toggle-topbar "><a href="#"><i class="fa fa-align-justify">↓</i></a></li>
+                    </ul>
+                    <section class="top-bar-section">
+                        <ul>
+                            <li><a href=""><b>Hjem</b></a></li>
+                            <li><a href=""><b>Produkter</b></a></li>
+                            <li><a href=""><b>Om Os</b></a></li>
+                            <li><a href=""><b>Kontakt</b></a></li>
+
+                        </ul>
+                    </section>
+                </nav>
+
+            </div>
+        </div>
+    </div>
+
+    <hr />
+
+
+
+
+        <hr />
+
+        
+
+        @RenderBody()
+    <br/>
+        <div class="row">
+            <Footer class="large-12 columns">
+                <p>Copyright 2014 by NIKON experten</p> 
+            </Footer>
+        </div>
+
+        <script src="~/Content/js/vendor/jquery.min.js"></script>
+        <script src="~/Content/js/vendor/what-input.min.js"></script>
+        <script src="~/Content/js/foundation.min.js"></script>
+        <script src="~/Content/js/app.js"></script>
 </body>
 </html>
 
