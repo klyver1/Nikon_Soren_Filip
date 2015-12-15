@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace RepoNikon
 {
-   public class Kategori
+   public class Katgori
     {
        public int ID { get; set; }
        public string Navn { get; set; }
-        public int Sortering { get; set; }
+        public string text { get; set; }
+        public string billede { get; set; }
+        public int sortering { get; set; }
+
     }
 }

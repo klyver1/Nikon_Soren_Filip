@@ -1,13 +1,22 @@
-﻿<!DOCTYPE html>
+﻿@using RepoNikon.Factroy
+@using RepoNikon.Models.BaseModels
+<!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
+    @*Her laver vi en udtræk af en simple tekst*@
+    @{
+        Footer f = new Footer();
+        FooterFac ff = new FooterFac();
+        f = ff.Get(1);
+    }
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
-    <link href="~/Css/StyleSheet.css" rel="stylesheet" />
+
     <link href="~/Css/foundation.min.css" rel="stylesheet" />
     <link href="~/Css/foundation.css" rel="stylesheet" />
+    <link href="~/Css/StyleSheet.css" rel="stylesheet" />
 </head>
 <body>
     <div class="row">
@@ -34,7 +43,9 @@
     @RenderBody()
     <div class="row">
         <Footer class="large-12 columns">
-            <p>Copyright 2014 by NIKON experten</p>
+            @*her ud skriver vi den simple tekst*@
+            <p>@f.Text</p>
+
         </Footer>
     </div>
 

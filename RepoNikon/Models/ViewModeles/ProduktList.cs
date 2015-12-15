@@ -9,7 +9,7 @@ namespace RepoNikon.Models.ViewModeles
 {
    public class ProduktList
     {
-        public Kategori Kategori { get; set; }
+        public Katgori Kategori { get; set; }
         public List<Produkt> Produkter { get; set; } 
     }
 }

@@ -48,6 +48,7 @@ nav ul li a {
     border-left: 1px solid orange;
     text-align: center;
     background-color: #161616;
+    padding-right: 5px !important;
 }
 .Billedebox {
      border-bottom: 1px solid orange;

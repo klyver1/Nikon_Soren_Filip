@@ -100,6 +100,33 @@
     <Content Include="Content\js\Slider.js" />
     <Content Include="Content\js\vendor\jquery.min.js" />
     <Content Include="Content\js\vendor\what-input.min.js" />
+    <Content Include="Content\Pic\Bateri.jpg" />
+    <Content Include="Content\Pic\CF16.jpg" />
+    <Content Include="Content\Pic\CF64.jpg" />
+    <Content Include="Content\Pic\CoolPix110.jpg" />
+    <Content Include="Content\Pic\CoolPixS01.jpg" />
+    <Content Include="Content\Pic\CoolPixS800C.jpg" />
+    <Content Include="Content\Pic\D3200.jpg" />
+    <Content Include="Content\Pic\D600.jpg" />
+    <Content Include="Content\Pic\D7100.jpg" />
+    <Content Include="Content\Pic\Kamera.jpg" />
+    <Content Include="Content\Pic\Kompakt.png" />
+    <Content Include="Content\Pic\Kort.jpg" />
+    <Content Include="Content\Pic\Manfrotto701.jpg" />
+    <Content Include="Content\Pic\MSD16.jpg" />
+    <Content Include="Content\Pic\MSD32.jpg" />
+    <Content Include="Content\Pic\MSD64.jpg" />
+    <Content Include="Content\Pic\MSD8.jpg" />
+    <Content Include="Content\Pic\Nikon1.jpg" />
+    <Content Include="Content\Pic\Nikon200f4.jpg" />
+    <Content Include="Content\Pic\Objektiv.jpg" />
+    <Content Include="Content\Pic\R1C1.jpg" />
+    <Content Include="Content\Pic\SB700.jpg" />
+    <Content Include="Content\Pic\SD16GB.jpg" />
+    <Content Include="Content\Pic\SD32GB.jpg" />
+    <Content Include="Content\Pic\SP24-70.jpg" />
+    <Content Include="Content\Pic\Statov.png" />
+    <Content Include="Content\Pic\Tilbud.gif" />
     <Content Include="Css\app.css" />
     <Content Include="Css\foundation.css" />
     <Content Include="Css\foundation.min.css" />
@@ -109,15 +136,15 @@
     <Content Include="Helper\app.js" />
     <Content Include="Helper\foundation.js" />
     <Content Include="Helper\foundation.min.js" />
-    <Content Include="Pic\Banner01.jpg" />
-    <Content Include="Pic\Banner02.jpg" />
-    <Content Include="Pic\Banner03.jpg" />
-    <Content Include="Pic\header.PNG" />
-    <Content Include="Pic\orbit-1.jpg" />
-    <Content Include="Pic\orbit-2.jpg" />
-    <Content Include="Pic\orbit-3.jpg" />
-    <Content Include="Pic\orbit-4.jpg" />
-    <Content Include="Pic\Slider\header.PNG" />
+    <Content Include="Content\Pic\Banner01.jpg" />
+    <Content Include="Content\Pic\Banner02.jpg" />
+    <Content Include="Content\Pic\Banner03.jpg" />
+    <Content Include="Content\Pic\header.PNG" />
+    <Content Include="Content\Pic\orbit-1.jpg" />
+    <Content Include="Content\Pic\orbit-2.jpg" />
+    <Content Include="Content\Pic\orbit-3.jpg" />
+    <Content Include="Content\Pic\orbit-4.jpg" />
+    <Content Include="Content\Pic\Slider\header.PNG" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Css\foundation.css.map" />
@@ -241,6 +268,12 @@
     <Folder Include="App_Data\" />
     <Folder Include="Helper\vendor\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RepoNikon\RepoNikon.csproj">
+      <Project>{79a331c5-59e1-4b2d-be4a-12bc2b79aeba}</Project>
+      <Name>RepoNikon</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
