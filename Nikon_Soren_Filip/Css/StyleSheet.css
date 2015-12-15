@@ -1,40 +1,32 @@
-﻿body {  background-color: white !important;
-}
-* { 
+﻿
+
+body {  background-color: white !important;
 }
 
-Header{
-    background-color:#161616;
+Header {
+    background-color: #161616;
     text-align: center;
-    
-    
 }
 
-nav ul li{
-    font-size: 1.1em;
-    background-color: #009356 !important;
-    margin-left: 70px;
-      margin-right: 70px;
-       border-bottom: 1px solid orange;
-   
+ul li a {
+    margin-left: 110px;
+}
 
-    }
-
-
-
-nav ul li a:hover {
+ul li a:hover {
+    margin-left: 110px;
     text-decoration: underline;
-    font-size: 1.2em;
-    color: black !important;
+}
+
+.OrbitSliderBilleder {
+    width: 960px;
+    margin-top: -8px;
 }
 
 nav {
     background-color: #E0D4BE !important;
     border-bottom: 1px solid orange;
     border-top: 1px solid orange;
-    padding-bottom: 45px;
-    
-    
+    width: 960px;
 }
 
 nav ul li a {
@@ -49,22 +41,25 @@ nav ul li a {
      border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-.Billedebox {
 
-    border: 1px solid orange;
-    text-align: center;
-
-}
 .Billedetextbox {
-
-  border-bottom: 1px solid orange;
+    border-bottom: 1px solid orange;
     border-right: 1px solid orange;
     border-left: 1px solid orange;
     text-align: center;
     background-color: #161616;
 }
+.Billedebox {
+     border-bottom: 1px solid orange;
+    border-right: 1px solid orange;
+    border-left: 1px solid orange;
+    border-top: 1px solid orange; 
+    text-align: center;
+
+}
+
 .p2 {
-    color: white;
+    color:white;
 }
 .MaxWith {
    
@@ -72,19 +67,10 @@ max-width: 1000px;
     margin: auto;
 }
 img {
-    width: 100%;
-    
-    
-    
+    width: 110%;
 }
 
-p {
-    color: black !important;
 
-}
-h1 {
-    color: black !important;
-}
 h4 {
     color: gray !important;
     text-align: center;
@@ -111,18 +97,12 @@ footer {
 }
 
 
-.cental {
-    
-    
-}
+
 .coloerboxx {
     background-color: gainsboro !important;
 
 }
-li a {
-    color: gray !important;
-      padding-right: 100px;
-}
+
 .bordermid {
     border: solid 1px gray;
     box-sizing: border-box;
@@ -131,20 +111,10 @@ li a {
     border-top: none;
     border-bottom: none;
     background-color: white;
-    
-
-
 }
  
-a:hover {
-    color: orange !important;
-}
-a {
-    color: gray !important;
-    clear: both !important;
-    padding-right: 100px;
 
-}
+
 
 .ImagesBackgoundcolor {
     background-color: gray;
@@ -161,9 +131,7 @@ ul {
     margin-bottom: 10px;
 }
 .Sidesldie {
-    margin-left: -25px;
-   
-    
+    margin-left: -25px;    
 }
 .advanceSearge {
     font-size: 0.9em;
@@ -172,8 +140,6 @@ ul {
     width: 100px;
     float: left;
     padding-bottom: 20px;
-
-    
 }
 .Midborder {
     margin-top: 10px;
@@ -182,6 +148,8 @@ ul {
     border-bottom: none;
     min-height: 500px;
 }
+
+
 
 
 

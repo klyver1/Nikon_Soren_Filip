@@ -3,9 +3,41 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Side</h2>
+<h2></h2>
 
 <div class="row">
+    <div class="OrbitSliderBilleder">
+        <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+            <ul class="orbit-container">
+                <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
+                <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
+                <li class="is-active orbit-slide">
+                    <div>
+                        <div class="MaxBilledeStorelse"><img src="~/Pic/Banner01.jpg" /></div>
+                    </div>
+                </li>
+                <li class="orbit-slide">
+                    <div>
+                        <div class="MaxBilledeStorelse"><img src="~/Pic/Banner02.jpg" /></div>
+                    </div>
+                </li>
+                <li class="orbit-slide">
+                    <div>
+                        <div class="MaxBilledeStorelse"><img src="~/Pic/Banner03.jpg" /></div>
+                    </div>
+                </li>
+            </ul>
+            <div class="orbit-bullets">
+                <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+                <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+                <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    
     <div class=" Billedebox medium-3 columns">
         Img
     </div>
@@ -20,18 +52,21 @@
     </div>
 
 </div>
+
 <div class="row">
     <div class=" Billedetextbox medium-3 columns">
-        <div class="p2">  Text</div>
+        <div class="p2"> Text</div>
     </div>
     <div class="  Billedetextbox medium-3 columns">
-        <div class="p2">  Text</div>
+        <div class="p2"> Text</div>
     </div>
     <div class="  Billedetextbox medium-3 columns">
-        <div class="p2">  Text</div>
+        <div class="p2"> Text</div>
     </div>
     <div class=" Billedetextbox medium-3 columns">
-        <div class="p2">  Text</div>
+        <div class="p2"> Text</div>
     </div>
 
 </div>
+
+<hr />
