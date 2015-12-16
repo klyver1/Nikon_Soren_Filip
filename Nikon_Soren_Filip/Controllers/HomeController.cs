@@ -19,6 +19,7 @@ namespace Nikon_Soren_Filip.Controllers
         KategoriFac kf = new KategoriFac();
         ForsideFac ff = new ForsideFac();
         FooterFac Foot = new FooterFac();
+        OmosFac OF = new OmosFac();
         
         // GET: Home
 
@@ -26,7 +27,11 @@ namespace Nikon_Soren_Filip.Controllers
         {
             return View(kf.GetForsideKats(ff.Get(1)));
         }
-        
-    
+        public ActionResult Omos()
+        {
+            return View(OF.Get(6));
+        }
+
+
     }
 }

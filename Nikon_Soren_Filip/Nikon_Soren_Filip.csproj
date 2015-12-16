@@ -101,6 +101,7 @@
     <Content Include="Content\js\vendor\jquery.min.js" />
     <Content Include="Content\js\vendor\what-input.min.js" />
     <Content Include="Content\Pic\Bateri.jpg" />
+    <Content Include="Content\Pic\Butik.jpg" />
     <Content Include="Content\Pic\CF16.jpg" />
     <Content Include="Content\Pic\CF64.jpg" />
     <Content Include="Content\Pic\CoolPix110.jpg" />
@@ -257,6 +258,7 @@
     <Content Include="tinymce\js\tinymce\skins\lightgray\fonts\tinymce.eot" />
     <Content Include="tinymce\js\tinymce\skins\lightgray\fonts\tinymce.ttf" />
     <Content Include="tinymce\js\tinymce\skins\lightgray\fonts\tinymce.woff" />
+    <Content Include="Views\Home\Omos.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

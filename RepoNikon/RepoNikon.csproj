@@ -51,12 +51,14 @@
     <Compile Include="Factroy\IndHoldFac.cs" />
     <Compile Include="Factroy\KategoriFac.cs" />
     <Compile Include="Factroy\KontaktFac.cs" />
+    <Compile Include="Factroy\OmosFac.cs" />
     <Compile Include="Factroy\ProduktFac.cs" />
     <Compile Include="Models\BaseModels\Footer.cs" />
     <Compile Include="Models\BaseModels\Forside.cs" />
     <Compile Include="Models\BaseModels\Indhold.cs" />
     <Compile Include="Models\BaseModels\Kategori.cs" />
     <Compile Include="Models\BaseModels\Kontakt.cs" />
+    <Compile Include="Models\BaseModels\OmOs.cs" />
     <Compile Include="Models\BaseModels\Produkt.cs" />
     <Compile Include="Models\ViewModeles\ForsideKategorier.cs" />
     <Compile Include="Models\ViewModeles\ProduktList.cs" />
