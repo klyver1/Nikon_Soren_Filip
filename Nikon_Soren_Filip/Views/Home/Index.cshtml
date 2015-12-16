@@ -1,4 +1,5 @@
-﻿@using RepoNikon.Models.ViewModeles
+﻿@using RepoNikon.Models.BaseModels
+@using RepoNikon.Models.ViewModeles
 @model ForsideKategorier
 @{
     ViewBag.Title = "Index";
@@ -10,24 +11,19 @@
         <div class="OrbitSliderBilleder">
             <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
                 <ul class="orbit-container">
-                    <li class="is-active orbit-slide">
-                        <div>
-                            <div class="MaxBilledeStorelse"><img src="~/Content/Pic/Banner01.jpg"/>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="orbit-slide">
-                        <div>
-                            <div class="MaxBilledeStorelse"><img src="~/Content/Pic/Banner02.jpg"/>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="orbit-slide">
-                        <div>
-                            <div class="MaxBilledeStorelse"><img src="~/Content/Pic/Banner03.jpg"/>
-                            </div>
-                        </div>
-                    </li>
+                    
+                        @foreach (Slider slider in Model.Slider)
+                        {
+                            <li class="orbit-slide">
+                                <div>
+                                    <div class="MaxBilledeStorelse">
+                                        <img src="~/Content/Pic/@slider.Billede" />
+                                    </div>
+                                </div>
+                            </li>
+                        }
+                        
+                    
                 </ul>
                 <div class="orbit-bullets">
                 </div>
